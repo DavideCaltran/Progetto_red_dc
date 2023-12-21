@@ -1,0 +1,84 @@
+.imgLogo{
+
+    height: 100px;
+    width: 200px;
+
+}
+
+nav{
+
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+/* i miei font */
+
+.f-1{
+
+
+    Font:  Nova Square, Rajdhani
+}
+
+
+/* i miei colori */
+
+
+:root{
+
+    --font-primary:darkred;
+}
+
+.bg-modificato{
+
+    background-color: var(--font-primary);
+}
+
+.ancoreNav{
+
+    color: rgb(143, 143, 143);
+    padding-left: 70px   ;
+    padding-right: 70px;
+    
+   
+}
+
+header{
+    width: 100%;
+    height: calc(100vh );
+    margin-top: 128px;
+    
+
+    background-image:url(./media/mountains.png) ,url(./media/switzerland-862870_1920.jpg);
+    background-position-y:-35px, -150px;
+    background-position-x:0px,0px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover,cover;
+   position: relative;
+
+}
+
+
+h1{
+
+    
+    color: darkred;
+    font:  'Nova Square' ;
+    font-size: 60px;
+    margin-left: -30px;
+    margin-bottom: 200px;
+    
+    
+
+}
+
+span{
+
+   padding: 15px;
+   
+   
+    
+}
