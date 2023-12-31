@@ -1,172 +1,330 @@
 .font-1{
-
-    font-family: 'Kalnia', serif;
+   
+   font-family: 'Kalnia', serif;
 }
 
 
 
 .rowNav{
-
-    margin-left:209px ;
-    margin-right: 209px;
-    
-    padding-bottom: 25px;
-    
+   
+   margin-left:209px ;
+   margin-right: 209px;
+   
+   padding-bottom: 25px;
+   
 }
 
 a{
-
-    color: rgb(144, 144, 144);
+   
+   color: rgb(144, 144, 144);
 }
 
 .navImg{
-
-    background-color: rgb(255, 255, 255);
+   
+   background-color: rgb(255, 255, 255);
    
 }
 
 header{
-
-
-    
-    height:100vh;
-    
-    background-image: url(./media/mountains2.png), url(./media/switzerland-862870_1920.jpg);
-    background-size: cover,cover;
-    background-repeat: no-repeat, no-repeat;
-    background-position-x: center,center    ;
-    background-position-y: center,center  ;
-    
-
-    
-    
-    
-    
-    
+   
+   
+   
+   height:100vh;
+   
+   background-image: url(./media/mountains2.png), url(./media/switzerland-862870_1920.jpg);
+   background-size: cover,cover;
+   background-repeat: no-repeat, no-repeat;
+   background-position-x: center,center    ;
+   background-position-y: center,center  ;
+   
+   
+   
+   
+   
+   
+   
 }
 
 span{
-
-    margin-left: 10px;
-    margin-right: 10px;
-    color: darkred;
    
-
+   margin-left: 10px;
+   margin-right: 10px;
+   color: darkred;
+   
+   
 }
 
 h1{
-
-
-    font-size: 70px;
-    
+   
+   
+   font-size: 70px;
+   
 }
 
 
 .paragrafoApici::before{
-
-
+   
+   
    content: '"';
    font-size: 99px;
    position: absolute;
    color: darkred;
-
-    left:0px;
-    bottom: 25px;
+   
+   left:0px;
+   bottom: 25px;
    rotate: 180deg;
-    
-
-
+   
+   
+   
 }
 
 .paragrafoApici{
-    
-    font-size: 17px;
+   
+   font-size: 17px;
 }
 
 .paragrafoApici::after{
+   
+   
+   content: '"';
+   font-size: 99px;
+   position: absolute;
+   color: darkred;
+   
+   right: -30px;
+   bottom:-70px;
+   
+   
+   
+   
+   
+}
 
 
-    content: '"';
-    font-size: 99px;
-    position: absolute;
-    color: darkred;
-
-    right: -30px;
-    bottom:-70px;
- 
-     
-     
- 
- 
- }
 
 
+main{
+   
+   height: fit-content;
+}
 
 
- main{
+.iconadi4{
+   
+   font-size: 60px;
+   color: darkred;
+   
+}
 
-    height: fit-content;
- }
-
-
- .iconadi4{
-
-    font-size: 60px;
-    color: darkred;
-
- }
-
- .divparagrafo2{
-
-    margin-top: 150px;
-    background-color: rgb(237, 235, 235);
-
-    padding-left: 60px;
-    padding-right: 60px;
- }
+.divparagrafo2{
+   
+   margin-top: 150px;
+   background-color: rgb(237, 235, 235);
+   
+   padding-left: 60px;
+   padding-right: 60px;
+}
 
 
- .divparagrafo1{
+.divparagrafo1{
+   
+   
+   background-color: rgb(237, 235, 235);
+   
+}
 
 
-    background-color: rgb(237, 235, 235);
- 
- }
+.hricone{
+   
+   
+   border: 3px solid darkred;
+   opacity: 1;
+   width: 200px;
+   
+}
+
+.hricone::before{
+   
+   content: '';
+   border: 3px solid darkred;
+   border-radius: 50%;
+   position: absolute;
+   height: 25px;
+   width: 25px;
+   left: 85px;
+   bottom: 6px;
+   background-color: aliceblue;
+   
+}
+
+.divreverso{
+   
+   
+   right: -110px;
+}
 
 
- .hricone{
+.container2para{
+   
+   margin-top: 150px;
+}
 
-    
-    border: 3px solid darkred;
-    opacity: 1;
-    width: 200px;
-    
- }
+.divbottone{
+   
+   
+   margin-top:80px;
+   
+}
 
- .hricone::before{
-
-    content: '';
-    border: 3px solid darkred;
-    border-radius: 50%;
-    position: absolute;
-    height: 25px;
-    width: 25px;
-    left: 85px;
-    bottom: 6px;
-    background-color: aliceblue;
-
- }
-
- .divreverso{
-
-
-    right: -110px;
- }
+.bottone1{
+   
+   
+   background-color: darkred;
+   color: white;
+   border: none;
+   font-weight: 70px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   padding-left: 25px;
+   padding-right: 25px;
+   
+}
 
 
- .container2para{
+.articleBoschi{
+   
+   background-image: url(./media/trees2.png);
+   height: 460px;
+   background-size: cover;
+   background-color: rgb(237, 235, 235);
+   position: relative;
+   
+   
+   
+}
 
-    margin-top: 150px;
- }
+h3{
 
- 
+   color: darkred;
+   margin-bottom: 40px;
+}
+
+
+
+.divTimeline{
+
+   border-left: 4px solid darkred;
+   height: 575px;
+}
+
+.h4Timeline{
+
+   color: darkred;
+
+
+}
+
+.h4Timeline::before{
+
+   content: '';
+   border: solid 2px darkred;
+   position: absolute;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   left: 66px;
+   background-color: white;
+}
+
+
+.containerAlberini{
+
+   background-image: url(./media/single.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-position-x: 670px;
+   height: 690px;
+   
+}
+
+
+
+.imgSocial{
+
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   border: 3px solid darkred;
+   padding: 6px;
+}
+
+
+
+h5{
+   color: darkred;
+}
+
+.div-brand{
+
+
+   color: darkred;
+}
+
+.imgStorte{
+
+
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   border: 3px solid darkred;
+   padding: 6px;
+}
+
+
+h1,h2,h3,h4,h5{
+
+   color: darkred;
+}
+
+.containerTeam{
+
+   background-color: rgb(237, 235, 235);
+
+   height: fit-content;
+
+   height: 470px;
+  
+}
+
+
+.container-benefits{
+   background-color: rgb(237, 235, 235);
+   height: 890px;
+   background-image: url(./media/other.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+   
+
+   
+
+}
+
+.h3coco{
+
+   position: relative;
+   top: 50px;
+   left: 60px;
+}
+
+
+footer{
+
+   background-color: darkred;
+   height: 250px;
+}
+
+
+.fine{
+
+   color: white;
+}
