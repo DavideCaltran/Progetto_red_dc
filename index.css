@@ -328,3 +328,286 @@ footer{
 
    color: white;
 }
+
+
+@media screen and (max-width: 992px
+   
+){
+
+   .respolink{
+
+    padding-left: 2px;
+   }
+
+
+
+   .paragrafoApici::after{
+   
+   
+      content: '"';
+      font-size: 99px;
+      position: absolute;
+      color: darkred;
+      
+      right: 50px;
+      bottom:-90px;
+      
+      
+      
+      
+      
+   }
+   
+}
+
+
+@media screen and (max-width: 1072px
+   
+){
+
+
+   .paragrafoApici::before{
+   
+   
+      content: '"';
+      font-size: 99px;
+      position: absolute;
+      color: darkred;
+      
+      right: 550px;
+      bottom:60px;
+      
+      
+      
+      
+      
+   }
+
+
+}
+
+
+@media screen and (max-width: 869px
+   
+){
+
+
+   .paragrafoApici::before{
+   
+   
+      content: '"';
+      font-size: 99px;
+      position: absolute;
+      color: darkred;
+      
+      right: 550px;
+      bottom:110px;
+      
+      
+      
+      
+      
+   }
+
+
+}
+
+
+@media screen and (max-width: 742px
+   
+){
+
+
+   .paragrafoApici::before{
+   
+   
+      content: '"';
+      font-size: 99px;
+      position: absolute;
+      color: darkred;
+      
+      right: 550px;
+      bottom:110px;
+      
+      
+      
+      
+      
+   }
+
+
+}
+
+
+@media screen and (max-width: 607px
+   
+){
+
+
+   .paragrafoApici::before{
+   
+   
+      content: '"';
+      font-size: 99px;
+      position: absolute;
+      color: darkred;
+      
+      right: 550px;
+      bottom:140px;
+      
+      
+      
+      
+      
+   }
+
+
+}
+
+
+
+@media screen and (max-width: 566px
+   
+){
+
+
+   .paragrafoApici::before{
+   
+   
+      content: '"';
+      font-size: 99px;
+      position: absolute;
+      color: darkred;
+      
+      right: 550px;
+      bottom:170px;
+      
+      
+      
+      
+      
+   }
+
+
+}
+
+
+@media screen and (max-width:927px){
+
+
+   .paragrafoApici::after{
+   
+   
+      content: '"';
+      font-size: 99px;
+      position: absolute;
+      color: darkred;
+      
+      right: -10px;
+      bottom:-90px;
+      
+      
+      
+      
+      
+   }
+
+
+}
+
+@media screen and (max-width:952px){
+
+
+ 
+.articleBoschi{
+   
+   background-image: url(./media/trees2.png);
+   height: 360px;
+   background-size: cover;
+   background-color: rgb(237, 235, 235);
+   position: relative;
+   
+   
+   
+}
+
+
+.bottone1{
+
+   margin-bottom: 140px;
+}
+
+}
+
+
+@media screen and (max-width:1200px){
+
+
+   .containerAlberini{
+
+
+      height: 800px;
+   }
+
+
+
+
+   .divTimeline{
+
+      height: 670px;
+
+
+
+   }
+
+}
+
+
+
+@media screen and (max-width:992px){
+
+
+   .containerAlberini{
+
+
+      height: 950px;
+   }
+
+
+
+
+   .divTimeline{
+
+      height: 670px;
+
+
+
+   }
+
+}
+
+
+@media screen and (max-width:773px){
+
+
+   .containerAlberini{
+
+
+      height: 1050px;
+   }
+
+
+
+
+   .divTimeline{
+
+      height: 670px;
+
+
+
+   }
+
+}
+
+
+
