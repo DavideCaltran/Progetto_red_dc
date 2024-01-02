@@ -70,8 +70,8 @@ h1{
    position: absolute;
    color: darkred;
    
-   left:0px;
-   bottom: 25px;
+   left:-27px;
+   top: -70px;
    rotate: 180deg;
    
    
@@ -81,6 +81,7 @@ h1{
 .paragrafoApici{
    
    font-size: 17px;
+   position: relative;
 }
 
 .paragrafoApici::after{
@@ -88,11 +89,10 @@ h1{
    
    content: '"';
    font-size: 99px;
-   position: absolute;
-   color: darkred;
-   
-   right: -30px;
-   bottom:-70px;
+
+   rotate: 180deg;
+   bottom: -60px;
+
    
    
    
@@ -220,6 +220,7 @@ h3{
 .h4Timeline{
 
    color: darkred;
+   position: relative;
 
 
 }
@@ -232,8 +233,10 @@ h3{
    height: 20px;
    width: 20px;
    border-radius: 50%;
-   left: 66px;
+   /* left: 66px; */
    background-color: white;
+   left: -24px;
+
 }
 
 
@@ -244,6 +247,7 @@ h3{
    background-position: bottom;
    background-position-x: 670px;
    height: 690px;
+   
    
 }
 
@@ -256,6 +260,7 @@ h3{
    border-radius: 50%;
    border: 3px solid darkred;
    padding: 6px;
+   position: relative;
 }
 
 
@@ -268,6 +273,11 @@ h5{
 
 
    color: darkred;
+}
+
+body{
+
+   width: 100%;
 }
 
 .imgStorte{
@@ -292,9 +302,13 @@ h1,h2,h3,h4,h5{
 
    height: fit-content;
 
-   height: 470px;
-  
+   padding-bottom: 65px;
+   
+
+   
 }
+
+
 
 
 .container-benefits{
@@ -303,6 +317,7 @@ h1,h2,h3,h4,h5{
    background-image: url(./media/other.png);
    background-repeat: no-repeat;
    background-position: bottom;
+  
    
 
    
@@ -317,10 +332,13 @@ h1,h2,h3,h4,h5{
 }
 
 
+
+
+
 footer{
 
    background-color: darkred;
-   height: 250px;
+   height: fit-content
 }
 
 
@@ -341,126 +359,122 @@ footer{
 
 
 
-   .paragrafoApici::after{
-   
-   
-      content: '"';
-      font-size: 99px;
-      position: absolute;
-      color: darkred;
-      
-      right: 50px;
-      bottom:-90px;
-      
-      
-      
-      
-      
-   }
+
    
 }
 
 
-@media screen and (max-width: 1072px
-   
-){
+@media screen and (max-width: 1072px){}
 
 
-   .paragrafoApici::before{
+.paragrafoApici::after{
    
    
-      content: '"';
-      font-size: 99px;
-      position: absolute;
-      color: darkred;
-      
-      right: 550px;
-      bottom:60px;
-      
-      
-      
-      
-      
-   }
+   content: '"';
+   font-size: 99px;
+   position: absolute;
+   color: darkred;
+   top: 10px;
+   rotate: 180deg;
 
-
+   
+   
+   
+   
 }
 
 
-@media screen and (max-width: 869px
+
+
+   
+
+
+@media screen and (max-width: 869px){}
+
+
+
+.paragrafoApici::after{
+   
+   
+   content: '"';
+   font-size: 99px;
+   position: absolute;
+   color: darkred;
+   top: 40px;
+   rotate: 180deg;
+
+   
+   
+   
+   
+}
+
+   
+
+
+
+@media screen and (max-width: 652px
    
 ){
 
-
-   .paragrafoApici::before{
    
-   
-      content: '"';
-      font-size: 99px;
-      position: absolute;
-      color: darkred;
-      
-      right: 550px;
-      bottom:110px;
-      
-      
-      
-      
-      
-   }
 
+.container-benefits{
+   background-color: rgb(237, 235, 235);
+   height: 890px;
+   background-image: url(./media/other.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: 659px;
+   
+  
+   
+
+   
 
 }
 
-
-@media screen and (max-width: 742px
-   
-){
-
-
-   .paragrafoApici::before{
-   
-   
-      content: '"';
-      font-size: 99px;
-      position: absolute;
-      color: darkred;
-      
-      right: 550px;
-      bottom:110px;
-      
-      
-      
-      
-      
-   }
 
 
 }
 
 
-@media screen and (max-width: 607px
+   
+.paragrafoApici::after{
+   
+   
+   content: '"';
+   font-size: 99px;
+   position: absolute;
+   color: darkred;
+   top: 70px;
+   rotate: 180deg;
+
+   
+   
+   
+   
+}
+
+
+
+  
+
+
+}
+
+
+@media screen and (max-width: 412px
    
 ){
 
+   body{
 
-   .paragrafoApici::before{
-   
-   
-      content: '"';
-      font-size: 99px;
-      position: absolute;
-      color: darkred;
-      
-      right: 550px;
-      bottom:140px;
-      
-      
-      
-      
-      
+      width: 130%;
    }
 
+
+   
 
 }
 
@@ -471,22 +485,7 @@ footer{
 ){
 
 
-   .paragrafoApici::before{
-   
-   
-      content: '"';
-      font-size: 99px;
-      position: absolute;
-      color: darkred;
-      
-      right: 550px;
-      bottom:170px;
-      
-      
-      
-      
-      
-   }
+
 
 
 }
@@ -495,22 +494,6 @@ footer{
 @media screen and (max-width:927px){
 
 
-   .paragrafoApici::after{
-   
-   
-      content: '"';
-      font-size: 99px;
-      position: absolute;
-      color: darkred;
-      
-      right: -10px;
-      bottom:-90px;
-      
-      
-      
-      
-      
-   }
 
 
 }
@@ -566,15 +549,10 @@ footer{
 
 @media screen and (max-width:992px){
 
+     .containerAlberini{
 
-   .containerAlberini{
-
-
-      height: 950px;
-   }
-
-
-
+      height: 960px;
+     }
 
    .divTimeline{
 
@@ -608,6 +586,175 @@ footer{
    }
 
 }
+
+
+@media screen and (max-width:1196px){
+
+   .containerAlberini{
+
+      background-image: url(./media/single.png);
+      background-size: 410px;
+      background-position-x: 500px;
+    
+      
+   }
+   
+   
+}
+
+
+@media screen and (max-width:1242px){
+
+   .containerAlberini{
+
+      background-image: url(./media/single.png);
+      background-size: 510px;
+      background-position-x: 600px;
+    
+      
+   }
+   
+   
+}
+
+
+@media screen and (max-width:1202px){
+
+   .containerAlberini{
+
+      background-image: url(./media/single.png);
+      background-size: 310px;
+      background-position-x: 600px;
+    
+      
+   }
+   
+   
+}
+
+
+
+@media screen and (max-width:995px){
+
+   .containerAlberini{
+
+      background-image: url(./media/single.png);
+      background-size: 310px;
+      background-position-x: 400px;
+      
+      
+   }
+
+   
+   
+}
+
+@media screen and (max-width:769px){
+
+   .containerAlberini{
+
+      background-image: url(./media/single.png);
+      background-size: 200px;
+      background-position-x: 340px;
+      
+      
+   }
+
+   
+   
+}
+
+
+@media screen and (max-width:994px){
+
+   .divTimeline{
+
+      height: 860px;
+   }
+
+   
+
+   
+   
+}
+
+@media screen and (max-width:992px){
+
+   .divTimeline{
+
+      height: 955px;
+   }
+
+   
+
+   
+   
+}
+
+
+@media screen and (min-width:757px) and (max-width:996px){
+
+   .divTimeline{
+
+      height: 669px;
+   }
+
+   
+}
+
+
+@media screen and (max-width:992px){
+
+   .divTimeline{
+
+      height: 860px;
+   }
+
+   
+
+   
+   
+}
+
+
+@media screen and (max-width:767px){
+
+   .divTimeline{
+
+      height: 955px;
+   }
+
+   
+
+   
+   
+}
+
+
+@media screen and (max-width:618px){
+
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
